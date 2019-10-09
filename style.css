@@ -12,12 +12,13 @@ body {
 
 header, footer, #many_items {
     position: relative;
-    left: 20%;
+    left: 25%;
 }
 
 header, footer {
     width: 650px;
     margin: 20px 0px;
+    color: rgb(23, 10, 87);
 }
 
 header {
@@ -34,15 +35,17 @@ header {
 .item {
     display: inline-block;
     margin: 5px;
-    border: 2px solid darkblue;
+    border: 2px solid rgb(20, 38, 35);
     border-radius: 50%;
     height: 200px;
     width: 200px;
 }
 
 .sales {
-    border: 2px solid yellow;
+    border: 2px solid rgb(179, 242, 211);
     border-radius: 50%;
+    background-color: rgb(179, 242, 211);
+    color: white;
     line-height: 50px;
     height: 50px;
     width: 50px;
@@ -62,7 +65,7 @@ header {
     height: 50px;
     width: 50px;
     position: relative;
-    left: 75px;
+    left: 0px;
     top: 25px;
     z-index: 20;
 }
@@ -73,18 +76,43 @@ header {
 }
 
 .description {
-    border: 2px solid pink;
-    border-radius: 0 25px;
+    border: 2px solid rgb(70, 144, 156);
+    border-radius: 10px 25px;
+    background-color: rgb(70, 144, 156);
+    color: white;
     height: 25px;
     width: 200px;
-    line-height: 12px;
+    line-height: 25px;
     position: relative;
     top: 75px;
     z-index: 20;
 }
 
-#item_1{
-    background-image: url(https://image.shutterstock.com/image-photo/cactus-planted-flowerpot-260nw-1442807978.jpg);
+#item_1,#item_2,#item_3,#item_4,#item_5,#item_6 {
     background-size: cover;
     background-position: center;
+}
+
+#item_1 {
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/27/21/56/cactus-4161380__340.jpg);
+}
+
+#item_2 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/16/05/cacti-1846147__340.jpg);
+}
+
+#item_3 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/12/41/cacti-1845159__340.jpg);
+}
+
+#item_4 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/07/09/05/succulent-plants-2045388__340.jpg);
+}
+
+#item_5 {
+    background-image: url(https://cdn.pixabay.com/photo/2019/09/22/10/12/cactus-4495647__340.jpg);
+}
+
+#item_6 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/06/12/40/cactus-2721269__340.jpg);
 }
