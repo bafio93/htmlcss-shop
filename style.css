@@ -9,20 +9,26 @@ body {
     background-image: url(https://cdn.pixabay.com/photo/2014/07/28/16/00/pattern-403769__340.png);
 }
 
-header, footer {
+header, footer, #many_items {
     position: relative;
-    left: 25%;
+    left: 20%;
+}
+
+header, footer {
     border: 2px solid orange;
     width: 650px;
     margin: 20px 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 150%;
 }
 
 #many_items {
     border: 2px solid darkblue;
     height: 450px;
     width: 650px;
-    position: relative;
-    left: 25%;
     padding: 10px 0 10px 5px;
 }
 
@@ -30,16 +36,20 @@ header, footer {
     display: inline-block;
     margin: 5px;
     border: 2px solid darkblue;
+    border-radius: 50%;
     height: 200px;
     width: 200px;
 }
 
 .sales {
     border: 2px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
     height: 50px;
     width: 50px;
     position: relative;
-    left: 146px;
+    left: 75px;
 }
 
 .description {
