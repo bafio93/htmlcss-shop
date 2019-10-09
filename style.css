@@ -6,10 +6,19 @@ body {
     background-image: url(https://cdn.pixabay.com/photo/2014/07/28/16/00/pattern-403769__340.png);
 }
 
+header, footer {
+    position: relative;
+    left: 25%;
+    border: 2px solid orange;
+    width: 700px;
+}
+
 #many_items {
     border: 2px solid darkblue;
     height: 500px;
     width: 700px;
+    position: relative;
+    left: 25%;
 }
 
 .item {
@@ -33,4 +42,9 @@ body {
     width: 196px;
     position: relative;
     top: 92px;
+}
+
+#item_1{
+    background-image: url(https://image.shutterstock.com/image-photo/cactus-planted-flowerpot-260nw-1442807978.jpg);
+    background-position: center;
 }
