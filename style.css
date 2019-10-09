@@ -7,9 +7,30 @@ body {
 }
 
 #many_items {
-
+    border: 2px solid darkblue;
+    height: 500px;
+    width: 700px;
 }
 
 .item {
+    display: inline-block;
+    border: 2px solid darkblue;
+    height: 200px;
+    width: 200px;
+}
 
+.sales {
+    border: 2px solid yellow;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 146px;
+}
+
+.description {
+    border: 2px solid pink;
+    height: 50px;
+    width: 196px;
+    position: relative;
+    top: 92px;
 }
