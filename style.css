@@ -55,7 +55,7 @@ header {
 }
 
 .yes_please {
-    visibility: visible;
+    visibility: hidden;
     border: 2px solid rgb(2, 230, 195);
     border-radius: 50%;
     background-color: rgb(2, 230, 195);
@@ -70,8 +70,8 @@ header {
     z-index: 20;
 }
 
-.yes_please:hover {
-    visibility: hidden;
+.item:hover .yes_please {
+    visibility: visible;
     z-index: 20;
 }
 
